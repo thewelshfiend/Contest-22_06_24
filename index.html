@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorian | Restaurant</title>
+    <link rel="icon" href="https://www.svgrepo.com/show/184628/fast-food-burger.svg" type="jpg">
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <aside class="w-25 d-flex flex-column border border-2 border-success">
+        <div id="face" class="pb-2">
+            <img class="img-fluid px-4 mx-auto" width="300" height="300" src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AGhjhCPAlzqAc9FBxxL4pHoBhJfViu6snwij3I3rDC0UZRNyEzmUi5g2BQHlPHNgWfOto-3N5SBmikybJ3-yMZPX5j~BejgihVj3U1coCNaSe1gSJsxHBbSw-mHcnj8umEAKS50Dsv0gT~rIPW6SMERx21Oy1CO6p1yNebbuR4zISO57yhwT3jJIQSziv99uB67GDGXvyTSdbWwKG7bz~c1EKFFY89dvpSE~SzlXs8bMTAm~W3-GbyovmCUbl2Tsc9K6fipzuGp4CfcQWpqMliYaYkyFXTLNtZh3zmGZ82KKHi6sAdrEy2-KcjY01ey6vjooZYR-CauWlkmgRZOqxA__"
+            alt="DorianLogo">
+            <div class="text-center">
+                <h2 class="fs-3">Dorian Restaurant Menu</h2>
+                <span class="fs-6">Finger lickin' good!!</span>
+            </div>
+        </div>
+        <hr class="text-secondary mx-3">
+        <div class="px-3">
+            <h3 class="fs-5 pb-3 text-center">Quick Links</h3>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li><a href="#">Wallet</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Logout</a></li>
+            </ol>
+        </div>
+        <hr class="text-secondary mx-3">
+        <div class="px-3">
+            <h3 class="fs-5 pb-3 text-center">More About Us</h3>
+            <ol>
+                <li><a href="#">Our blog</a></li>
+                <li><a href="#">Upcoming dishes</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Social Media Links</a></li>
+            </ol>
+        </div>
+    </aside>
+    <div id="right-content">
+        <header>
+            <nav class="navbar navbar-expand-lg px-2 py-1">
+                <div id="nav-contents" class="container-fluid">
+                    <div id="search-bar" class="d-flex">
+                        <span style="background: #272a30;" class="rounded-start-2 pt-1 px-2">
+                            <svg width="20" height="20" viewBox="0 0 24.00 24.00" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#272A30" stroke-width="0.36">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17.0392 15.6244C18.2714 14.084 19.0082 12.1301 19.0082 10.0041C19.0082 5.03127 14.9769 1 10.0041 1C5.03127 1 1 5.03127 1 10.0041C1 14.9769 5.03127 19.0082 10.0041 19.0082C12.1301 19.0082 14.084 18.2714 15.6244 17.0392L21.2921 22.707C21.6828 23.0977 22.3163 23.0977 22.707 22.707C23.0977 22.3163 23.0977 21.6828 22.707 21.2921L17.0392 15.6244ZM10.0041 17.0173C6.1308 17.0173 2.99087 13.8774 2.99087 10.0041C2.99087 6.1308 6.1308 2.99087 10.0041 2.99087C13.8774 2.99087 17.0173 6.1308 17.0173 10.0041C17.0173 13.8774 13.8774 17.0173 10.0041 17.0173Z"
+                                        fill="#858585"></path>
+                                </g>
+                            </svg></span>
+                        <input id="search-input" class="form-control border-0 rounded-start-0" type="search"
+                            placeholder="Search Food Item">
+                    </div>
+                    <button class="btn btn-danger rounded-1 btn-sm px-auto py-1" type="button">Signup</button>
+                    <button class="btn btn-danger rounded-1 btn-sm px-auto py-1" type="button">Login</button>
+                    <img class="img-fluid" width="50" height="50"
+                        src="https://s3-alpha-sig.figma.com/img/6c30/5666/5f8945b573189c004e90e2728a92eb63?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AGhjhCPAlzqAc9FBxxL4pHoBhJfViu6snwij3I3rDC0UZRNyEzmUi5g2BQHlPHNgWfOto-3N5SBmikybJ3-yMZPX5j~BejgihVj3U1coCNaSe1gSJsxHBbSw-mHcnj8umEAKS50Dsv0gT~rIPW6SMERx21Oy1CO6p1yNebbuR4zISO57yhwT3jJIQSziv99uB67GDGXvyTSdbWwKG7bz~c1EKFFY89dvpSE~SzlXs8bMTAm~W3-GbyovmCUbl2Tsc9K6fipzuGp4CfcQWpqMliYaYkyFXTLNtZh3zmGZ82KKHi6sAdrEy2-KcjY01ey6vjooZYR-CauWlkmgRZOqxA__"
+                        alt="DorianLogo">
+                </div>
+            </nav>
+        </header>
+        <main class="px-3">
+            <article class="text-center py-3">
+                <img class="img-fluid rounded-4 w-50"
+                    src="https://s3-alpha-sig.figma.com/img/bfaa/d74b/76ba1256d10f8af33fd5e08b7574087c?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gHmIhdc~1m8x3sMBHM1tNGC2j7u~-xMNfFTGnAblbf8XZLI76QBaUqlHZnPXGp7hz1Hc1~pWqh07NlERhdKspJYxV8GTbaze838GoMFonLSrBn1VyUAzIOK5Y9P3JYkbjoOy3p5WtNra2026ZwTMYqZf~wxRmfxx8A6hc85dVAo1lo3Tndl0h0AmwdVte3RVFAuqcJvH81Z40A5VFRJaiys2OI~RgCplBi7wDPbvpxrp7DJox-0cAbOGlh4g82nvQk4cy3No2-5bkod~FjEiJV-7G90hc~EdtVJf6-S3u3us5FVESDGPLwNmrh8UzM48d1jgtkI5fXlGmhcP-ONi8A__"
+                    alt="Special">
+            </article>
+            <section id="menu-section" class="px-3">
+                <h2 class="fs-4 py-3">Menu</h2>
+                <div>
+                    <ul id="menu-list" class="p-0 overflow-x-auto">
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                        <li class="card rounded-2 d-inline-block me-4 px-2 pt-2">
+                            <img class="img-fluid rounded-2"
+                                src="https://s3-alpha-sig.figma.com/img/25d6/cb93/f7841f10f589d812f29695ad4fde3fa2?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g48UcDIzf1HHJV8Fq6AGnCqiN94k5G6JDX86k1zP3KL~RQqFtIf-ArVs2iywp884eBdpwZfX1nqc7fWR85O0wK3YrBiOkWHkDMzU3wX0qMLMklNFa7LtshCOvV3S0tslbYCo8nBarEgGNfqv4KhGrsYZyH-H7gHKHAhXbV1qsmid3eqLr50Zw17F2MIcp4RNIi2utKr6WkCeuHdK~YUJRhiEYwk7g9Hn~zwLp~cj~K1YVJro6i8EPd6n8z4OYQLmCCtwKxtu~M8dQH4jjjdizeFQksjWZis4wmDQGQZQjHoxJ3BMAK5aNOj2VK6Xio~Q~ImZ82cPIYQGBeuFf-lXqw__"
+                                class="card-img-top" alt="MenuItem">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <div>
+                                    <h6 class="card-title fs-6">Burger</h6>
+                                    <p class="card-text fs-6">$5.99/-</p>
+                                </div>
+                                <button class="fs-3 border-0 rounded-3">&#43;</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <br>
+    </div>
+
+</body>
+
+</html>
